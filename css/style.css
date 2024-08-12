@@ -1,0 +1,38 @@
+html {
+	width: 100%;
+	min-height: 100%;
+	margin: 0;
+	padding: 0;
+	white-space-collapse: collapse;
+
+	background: #230d38;
+}
+
+body {
+	margin: 20px 20%;
+	padding: 10px 30px;
+	min-width: 200px;
+
+	background: #f2e1f2;
+	border-radius: 30px;
+}
+
+.twitter, .youtube {
+	margin: 0;
+	padding: 0 0 0 20px;
+	list-style: none;
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 12px;
+}
+.twitter { background-image: url("/rsc/twitter.png"); }
+.youtube { background-image: url("/rsc/youtube.png"); }
+
+.section {
+	margin-bottom: 6px;
+	padding: 2px 15px;
+
+	background: rgba(255,255,255,30%);
+	border-radius: 20px;
+}
+
