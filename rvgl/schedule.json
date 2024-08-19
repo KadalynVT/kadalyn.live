@@ -1,0 +1,15 @@
+{
+	"name": "Re-Volt with Kadalyn",
+	"version": "24.0819",
+	"events": {
+		"kada-02": {
+			"title": "Amateur races (Stock & IO)",
+			"date": "20-08-2024 01:00",
+			"url": "https://kadalyn.live/rvgl/2024-08-19",
+			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
+			"category": "casual",
+			"mode": "race",
+			"class": "amateur"
+		}
+	}
+}
