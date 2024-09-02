@@ -1,15 +1,15 @@
 {
 	"name": "Re-Volt with Kadalyn",
-	"version": "24.0826",
+	"version": "24.0903",
 	"events": {
 		"kada-03": {
 			"title": "Clockwork races",
-			"date": "27-08-2024 01:00",
-			"url": "https://kadalyn.live/rvgl/2024-08-26",
+			"date": "03-09-2024 01:00",
+			"url": "https://kadalyn.live/rvgl/2024-09-02",
 			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
 			"category": "casual",
 			"mode": "race",
-			"class": "other"
+			"class": "semi-pro"
 		}
 	}
 }
