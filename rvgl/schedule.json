@@ -2,10 +2,19 @@
 	"name": "Re-Volt with Kadalyn",
 	"version": "24.0909",
 	"events": {
-		"kada-03": {
+		"kada-04": {
 			"title": "Amateur races",
 			"date": "10-09-2024 01:00",
 			"url": "https://kadalyn.live/rvgl/2024-09-09",
+			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
+			"category": "casual",
+			"mode": "race",
+			"class": "amateur"
+		},
+		"kada-05": {
+			"title": "Amateur races on dirt tracks",
+			"date": "17-09-2024 01:00",
+			"url": "https://kadalyn.live/rvgl/2024-09-16",
 			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
 			"category": "casual",
 			"mode": "race",
