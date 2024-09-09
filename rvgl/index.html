@@ -12,8 +12,7 @@
 		<p>If you're playing on PC, go get the <a href="https://re-volt.gitlab.io/rvgl-launcher/">RVGL Launcher</a>!</p>
 		<p>When you run it it will show a screen saying <tt>The game doesn't seems to be installed.</tt> From here, you want to select Install Type: Standard (the default) and Game Preset: Online. Then click Download and Install.</p>
 		<p>Once the install is complete, you'll see various information on the Game tab. Above the Lunch RVGL button there's a Launch Parameters box. Enter the following in there:</p>
-		<p><tt>-nointro -pass funky</tt></p>
-		<p>The password will change every stream, so replace <tt>funky</tt> with whatever it says on stream!</p>
+		<p><tt>-nointro -lobby kadalyn.rv.gl</tt></p>
 		<p>Now go to the Repositories tab and in the input field at the bottom enter <tt>https://kadalyn.live/rvgl/schedule.json</tt> then click Add Repository.</p>
 	</div>
 	<h3>Android</h3>
@@ -32,11 +31,6 @@
 			<li><a href="https://distribute.re-volt.io/packs/io_clockworks_modern.zip">io_clockworks_modern</a></li>
 		</ul>
 		<p>Unzip these to the RVGL folder you found. If it asks to overwrite anything, check the "Apply to all" box and select skip (that is, don't overwrite anything!).</p>
-		<p>Now download <a href="https://play.google.com/store/apps/details?id=com.termux">Termux</a> and run it. This will open a (potentially intimidating) terminal interface.</p>
-		<p>In this interface, use this command to start RVGL (instead of tapping the icon!):</p>
-		<p><tt>am start -n com.rvgl.rvgl/.RVGLActivity -e args "-nointro -lobby kadalyn.rv.gl -pass funky"</tt></p>
-		<p>The password will change every stream, so replace <tt>funky</tt> with whatever it says on stream!</p>
-		<p>When you want to play solo, you can just tap the icon instead of going through Termux.</p>
 	</div>
 
 	<h2 id="controls">2. Set up your controls</h2>
@@ -47,7 +41,8 @@
 		<p>If you added the repo on PC, go to the Events tab, click on my event, then click Join Kadalyn.</p>
 		<p>If you didn't use the -lobby parameter or set up the repo, you'll have to go to Start Race → Multi-Player → Join Game and then enter <tt>kadalyn.rv.gl</tt></p>
 		<p>Once it starts up, just select Join Game.</p>
-		<p>If your connection is immediately rejected, make sure your client is up to date, that you have entered the correct password, and you have the right packs (unmodified).</p>
+		<p>If your connection is immediately rejected, make sure your client is up to date and you have the right packs (unmodified).</p>
+		<p>If we're playing with cars you haven't unlocked, enter CARNIVAL at the wheel screen, press enter, you'll hear a funny noise, then you can press escape to go back and change it to a real name.</p>
 		<p>Now enter your name (ideally the name you're chatting with on YouTube!) and select a car based on the day's limitations (it will say on stream).</p>
 		<p>Now select Waiting Room if you wish to play.</p>
 		<p>You'll see a list of participants. The top-most player will reiterate the limits of the day's races.</p>
