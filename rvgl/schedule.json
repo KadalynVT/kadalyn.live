@@ -1,15 +1,23 @@
 {
 	"name": "Re-Volt with Kadalyn",
-	"version": "24.1014",
+	"version": "24.1021",
 	"events": {
-		"kada-07": {
+		"kada-11": {
 			"title": "Amateur races",
-			"date": "15-10-2024 01:00",
-			"url": "https://kadalyn.live/rvgl/2024-10-14",
+			"date": "22-10-2024 01:00",
+			"url": "https://kadalyn.live/rvgl/2024-10-21",
 			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
 			"category": "casual",
 			"mode": "race",
 			"class": "amateur"
+		}
+	},
+	"packages": {
+		"kada-11": {
+			"description": "Tracks for playing RVGL with Kadalyn on 2024-10-21",
+			"version": "24.1021",
+			"url": "https://github.com/KadalynVT/kadalyn.live/releases/download/kada-11/kada-11.zip",
+			"file": "kada-11.zip"
 		}
 	}
 }
