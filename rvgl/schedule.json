@@ -1,15 +1,15 @@
 {
 	"name": "Re-Volt with Kadalyn",
-	"version": "24.1111",
+	"version": "24.1118",
 	"events": {
-		"kada-13": {
-			"title": "Semi-pro races",
-			"date": "12-11-2024 01:00",
-			"url": "https://kadalyn.live/rvgl/2024-11-11",
+		"kada-14": {
+			"title": "Amateur races",
+			"date": "12-19-2024 02:00",
+			"url": "https://kadalyn.live/rvgl/2024-11-18",
 			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
 			"category": "casual",
 			"mode": "race",
-			"class": "semi-pro"
+			"class": "amateur"
 		}
 	},
 	"packages": {
