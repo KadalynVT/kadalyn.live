@@ -1,0 +1,68 @@
+td:nth-child(5), td:nth-child(6), td:nth-child(7) {
+	white-space: nowrap;
+	text-align: right;
+}
+
+label:not([for="and-below"]):after {
+	content: ": ";
+}
+
+#rater label {
+	margin-left: 15px;
+}
+
+/* Filters */
+.hidden-by-search {
+	display: none !important;
+}
+
+tr:not(:has(th)) {
+	display: none;
+}
+
+.section:not(:has(#io:checked)) .io-only {
+	display: none;
+}
+
+.section:has(#rating > option[value="any"]:checked) ~ .section tr,
+.section:has(#game:checked):has(#rating > option[value="rookie"]:checked) ~ .section .rookie,
+.section:has(#game:checked):has(#rating > option[value="amateur"]:checked) ~ .section .amateur,
+.section:has(#game:checked):has(#rating > option[value="advanced"]:checked) ~ .section .advanced,
+.section:has(#game:checked):has(#rating > option[value="semipro"]:checked) ~ .section .semi-pro,
+.section:has(#game:checked):has(#rating > option[value="pro"]:checked) ~ .section .pro,
+.section:has(#game:checked):has(#rating > option[value="superpro"]:checked) ~ .section .super-pro,
+.section:has(#game:checked):has(#and-below:checked):has(option:checked:where([value="amateur"], [value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .rookie,
+.section:has(#game:checked):has(#and-below:checked):has(option:checked:where([value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .amateur,
+.section:has(#game:checked):has(#and-below:checked):has(option:checked:where([value="semipro"], [value="pro"], [value="superpro"])) ~ .section .advanced,
+.section:has(#game:checked):has(#and-below:checked):has(option:checked:where([value="pro"], [value="superpro"])) ~ .section .semi-pro,
+.section:has(#game:checked):has(#and-below:checked):has(option[value="superpro"]:checked) ~ .section .pro,
+.section:has(#io:checked):has(#rating > option[value="rookie"]:checked) ~ .section .io-rookie,
+.section:has(#io:checked):has(#rating > option[value="amateur"]:checked) ~ .section .io-amateur,
+.section:has(#io:checked):has(#rating > option[value="advanced"]:checked) ~ .section .io-advanced,
+.section:has(#io:checked):has(#rating > option[value="semipro"]:checked) ~ .section .io-semi-pro,
+.section:has(#io:checked):has(#rating > option[value="pro"]:checked) ~ .section .io-pro,
+.section:has(#io:checked):has(#rating > option[value="superpro"]:checked) ~ .section .io-superpro,
+.section:has(#io:checked):has(#and-below:checked):has(option:checked:where([value="amateur"], [value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .io-rookie,
+.section:has(#io:checked):has(#and-below:checked):has(option:checked:where([value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .io-amateur,
+.section:has(#io:checked):has(#and-below:checked):has(option:checked:where([value="semipro"], [value="pro"], [value="superpro"])) ~ .section .io-advanced,
+.section:has(#io:checked):has(#and-below:checked):has(option:checked:where([value="pro"], [value="superpro"])) ~ .section .io-semi-pro,
+.section:has(#io:checked):has(#and-below:checked):has(option[value="superpro"]:checked) ~ .section .io-pro,
+.section:has(#rating > option[value="cclockwork"]:checked) ~ .section .classic-clockworks,
+.section:has(#rating > option[value="mclockwork"]:checked) ~ .section .modern-clockworks,
+.section:has(#and-below:checked):has(option[value="mclockwork"]:checked) ~ .section .classic-clockworks,
+.section:has(#rating > option[value="d1gp"]:checked) ~ .section .d1gp,
+.section:has(#rating > option[value="d2gp"]:checked) ~ .section .d2gp,
+.section:has(#rating > option[value="dxgp"]:checked) ~ .section .dxgp,
+.section:has(#rva:checked):has(#rating > option[value="rookie"]:checked) ~ .section .rva-rookie,
+.section:has(#rva:checked):has(#rating > option[value="amateur"]:checked) ~ .section .rva-amateur,
+.section:has(#rva:checked):has(#rating > option[value="advanced"]:checked) ~ .section .rva-advanced,
+.section:has(#rva:checked):has(#rating > option[value="semipro"]:checked) ~ .section .rva-semipro,
+.section:has(#rva:checked):has(#rating > option[value="pro"]:checked) ~ .section .rva-pro,
+.section:has(#rva:checked):has(#rating > option[value="superpro"]:checked) ~ .section .rva-superpro,
+.section:has(#rva:checked):has(#and-below:checked):has(option:checked:where([value="amateur"], [value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .rva-rookie,
+.section:has(#rva:checked):has(#and-below:checked):has(option:checked:where([value="advanced"], [value="semipro"], [value="pro"], [value="superpro"])) ~ .section .rva-amateur,
+.section:has(#rva:checked):has(#and-below:checked):has(option:checked:where([value="semipro"], [value="pro"], [value="superpro"])) ~ .section .rva-advanced,
+.section:has(#rva:checked):has(#and-below:checked):has(option:checked:where([value="pro"], [value="superpro"])) ~ .section .rva-semipro,
+.section:has(#rva:checked):has(#and-below:checked):has(option[value="superpro"]:checked) ~ .section .rva-pro {
+	display: table-row;
+}

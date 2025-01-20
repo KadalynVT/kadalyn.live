@@ -45,3 +45,16 @@ body {
 	border-radius: 20px;
 }
 
+table {
+	width: 100%;
+	border: 1px solid black;
+}
+
+td, th {
+	border: 1px solid black;
+	padding: 1px 5px;
+}
+
+.js-only {	
+	display: none;
+}
