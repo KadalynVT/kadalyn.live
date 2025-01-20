@@ -132,10 +132,10 @@ function sortString(a, b, mode) {
 }
 
 function sortRating(a, b, mode) {
-	if (a == "unranked") {
-		return b == "unranked" ? 0 : 1;
+	if (a == "unranked" || a == "unrated") {
+		return b == "unranked" || b == "unrated" ? 0 : 1;
 	}
-	else if (b == "unranked") {
+	else if (b == "unranked" || b == "unrated") {
 		return -1;
 	}
 	return (rating[a] - rating[b]) * mode;
