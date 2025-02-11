@@ -1,11 +1,11 @@
 {
 	"name": "Re-Volt with Kadalyn",
-	"version": "25.0113",
+	"version": "25.0210",
 	"events": {
-		"kada-17": {
+		"kada-19": {
 			"title": "Amateur races live",
-			"date": "14-01-2025 02:00",
-			"url": "https://kadalyn.live/rvgl/2025-01-13",
+			"date": "11-02-2025 02:00",
+			"url": "https://kadalyn.live/rvgl/2025-02-10",
 			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
 			"category": "casual",
 			"mode": "race",
