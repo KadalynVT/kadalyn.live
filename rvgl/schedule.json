@@ -1,17 +1,7 @@
 {
 	"name": "Re-Volt with Kadalyn",
-	"version": "25.0303",
-	"events": {
-		"kada-20": {
-			"title": "Amateur races live",
-			"date": "03-03-2025 02:00",
-			"url": "https://kadalyn.live/rvgl/2025-03-03",
-			"hosts": { "Kadalyn": "kadalyn.rv.gl" },
-			"category": "casual",
-			"mode": "race",
-			"class": "amateur"
-		}
-	},
+	"version": "25.0324",
+	"events": {},
 	"packages": {
 		"kada-11": {
 			"description": "Tracks for playing RVGL with Kadalyn on 2024-10-21",
