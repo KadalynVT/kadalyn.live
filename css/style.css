@@ -51,6 +51,17 @@ body {
 	border-radius: 20px;
 }
 
+table.collapsed {
+	border: none;
+	border-collapse: collapse;
+	width: auto;
+}
+
+table.collapsed th, table.collapsed td {
+	text-align: left;
+	border: none;
+}
+
 table {
 	width: 100%;
 	border: 1px solid black;
