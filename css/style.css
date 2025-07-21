@@ -37,6 +37,12 @@ body {
 .youtube { background-image: url("/rsc/youtube.png"); }
 .bluesky { background-image: url("/rsc/bluesky.png"); }
 
+.icon {
+	width: 16px;
+	height: 16px;
+	margin-left: 5px;
+}
+
 .section {
 	margin-bottom: 6px;
 	padding: 2px 15px;
