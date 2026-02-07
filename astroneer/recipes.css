@@ -1,0 +1,78 @@
+html {
+	background: #0a0a13 url(rsc/skybox.png) center top no-repeat;
+	background-attachment: fixed;
+}
+
+body {
+	min-height: 2000px;
+	background: linear-gradient(to bottom,
+		#00000000 0%, #00000000 calc(50% - 153px),
+		#264962 calc(50% - 153px),
+		#1c374c calc(50% + 532px),
+		#012432 100%
+	);
+}
+
+#body {
+	min-height: 2000px;
+	background: url(rsc/ground.png) center 50% no-repeat;
+	
+	text-align: center;
+	color: whitesmoke;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px  1px 0 #000,
+		1px  1px 0 #000;
+}
+
+table {
+	margin: 0 auto;
+}
+
+.section {
+	padding: 5px 10px;
+	border: 2px solid #4d4289;
+	border-radius: 20px;
+	background-color: #181026f0;
+}
+
+.section > table {
+	border-collapse: collapse;
+}
+
+#search {
+	width: 50%;
+}
+
+.hidden {
+	display: none;
+}
+
+th.sortable {
+	padding-right: 15px;
+	cursor: pointer;
+}
+
+th.sortable > span {
+	float: right;
+	width: 15px;
+	height: 15px;
+	background: url(rsc/sorting.png) no-repeat;
+}
+
+th.sort-asc > span {
+	background-position: -15px 0;
+}
+
+th.sort-desc > span {
+	background-position: -30px 0;
+}
+
+tr:has(>td > .unlocked) {
+	background-color: #702e4269;
+}
+
+tr:has(>td > .unlocked:checked) {
+	background-color: #254a1d69;
+}
