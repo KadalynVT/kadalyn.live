@@ -69,6 +69,12 @@ th.sort-desc > span {
 	background-position: -30px 0;
 }
 
+td.clickable {
+	cursor: pointer;
+	color: lightblue;
+	text-decoration: underline;
+}
+
 tr:has(>td > .unlocked) {
 	background-color: #702e4269;
 }
@@ -76,3 +82,126 @@ tr:has(>td > .unlocked) {
 tr:has(>td > .unlocked:checked) {
 	background-color: #254a1d69;
 }
+
+td[icon] {
+	padding-left: 15px;
+	background-repeat: no-repeat;
+	background-size: 15px 15px;
+}
+td[icon="aluminum"] { background-image: url(rsc/icons/icon_aluminum.png); }
+td[icon="aluminum_alloy"] { background-image: url(rsc/icons/icon_aluminum_alloy.png); }
+td[icon="ammonium"] { background-image: url(rsc/icons/icon_ammonium.png); }
+td[icon="argon"] { background-image: url(rsc/icons/icon_argon.png); }
+td[icon="astronium"] { background-image: url(rsc/icons/icon_astronium.png); }
+td[icon="atmospheric_condenser"] { background-image: url(rsc/icons/icon_atmospheric_condenser.png); }
+td[icon="auto_extractor"] { background-image: url(rsc/icons/icon_auto_extractor.png); }
+td[icon="battery"] { background-image: url(rsc/icons/icon_battery.png); }
+td[icon="beach_ball"] { background-image: url(rsc/icons/icon_beach_ball.png); }
+td[icon="beacon"] { background-image: url(rsc/icons/icon_beacon.png); }
+td[icon="canister"] { background-image: url(rsc/icons/icon_canister.png); }
+td[icon="carbon"] { background-image: url(rsc/icons/icon_carbon.png); }
+td[icon="ceramic"] { background-image: url(rsc/icons/icon_ceramic.png); }
+td[icon="chemistry_lab"] { background-image: url(rsc/icons/icon_chemistry_lab.png); }
+td[icon="clay"] { background-image: url(rsc/icons/icon_clay.png); }
+td[icon="compound"] { background-image: url(rsc/icons/icon_compound.png); }
+td[icon="copper"] { background-image: url(rsc/icons/icon_copper.png); }
+td[icon="crane"] { background-image: url(rsc/icons/icon_crane.png); }
+td[icon="diamond"] { background-image: url(rsc/icons/icon_diamond.png); }
+/* td[icon="dls_construction_anchor"] { background-image: url(rsc/icons/icon_dls_construction_anchor.png); } */
+td[icon="drill"] { background-image: url(rsc/icons/icon_drill.png); }
+td[icon="dynamite"] { background-image: url(rsc/icons/icon_dynamite.png); }
+td[icon="exo_chip"] { background-image: url(rsc/icons/icon_exo_chip.png); }
+td[icon="explosive_powder"] { background-image: url(rsc/icons/icon_explosive_powder.png); }
+td[icon="fault_finder"] { background-image: url(rsc/icons/icon_fault_finder.png); }
+td[icon="field_shelter"] { background-image: url(rsc/icons/icon_field_shelter.png); }
+td[icon="fireworks"] { background-image: url(rsc/icons/icon_fireworks.png); }
+td[icon="generator"] { background-image: url(rsc/icons/icon_generator.png); }
+td[icon="glass"] { background-image: url(rsc/icons/icon_glass.png); }
+td[icon="graphene"] { background-image: url(rsc/icons/icon_graphene.png); }
+td[icon="graphite"] { background-image: url(rsc/icons/icon_graphite.png); }
+td[icon="helium"] { background-image: url(rsc/icons/icon_helium.png); }
+/* td[icon="helmet_lava_lamp"] { background-image: url(rsc/icons/icon_helmet_lava_lamp.png); } */
+td[icon="hematite"] { background-image: url(rsc/icons/icon_hematite.png); }
+td[icon="holographic_figurine"] { background-image: url(rsc/icons/icon_holographic_figurine.png); }
+td[icon="horn"] { background-image: url(rsc/icons/icon_horn.png); }
+td[icon="hoverboard"] { background-image: url(rsc/icons/icon_hoverboard.png); }
+td[icon="hydrazine"] { background-image: url(rsc/icons/icon_hydrazine.png); }
+td[icon="hydrogen"] { background-image: url(rsc/icons/icon_hydrogen.png); }
+td[icon="icon_sign"] { background-image: url(rsc/icons/icon_icon_sign.png); }
+td[icon="iron"] { background-image: url(rsc/icons/icon_iron.png); }
+td[icon="landing_pad"] { background-image: url(rsc/icons/icon_landing_pad.png); }
+td[icon="large_printer"] { background-image: url(rsc/icons/icon_large_printer.png); }
+td[icon="laterite"] { background-image: url(rsc/icons/icon_laterite.png); }
+/* td[icon="lava_lamp"] { background-image: url(rsc/icons/icon_lava_lamp.png); } */
+td[icon="leveling_block"] { background-image: url(rsc/icons/icon_leveling_block.png); }
+td[icon="light"] { background-image: url(rsc/icons/icon_light.png); }
+td[icon="lithium"] { background-image: url(rsc/icons/icon_lithium.png); }
+td[icon="malachite"] { background-image: url(rsc/icons/icon_malachite.png); }
+td[icon="medium_printer"] { background-image: url(rsc/icons/icon_medium_printer.png); }
+td[icon="mega-deconstructor"] { background-image: url(rsc/icons/icon_mega-deconstructor.png); }
+td[icon="mega-mini_training_shuttle"] { background-image: url(rsc/icons/icon_mega-mini_training_shuttle.png); }
+/* td[icon="melodic_mushroom"] { background-image: url(rsc/icons/icon_melodic_mushroom.png); } */
+td[icon="methane"] { background-image: url(rsc/icons/icon_methane.png); }
+/* td[icon="model_planet"] { background-image: url(rsc/icons/icon_model_planet.png); } */
+td[icon="nanocarbon_alloy"] { background-image: url(rsc/icons/icon_nanocarbon_alloy.png); }
+td[icon="nitrogen"] { background-image: url(rsc/icons/icon_nitrogen.png); }
+td[icon="organic"] { background-image: url(rsc/icons/icon_organic.png); }
+td[icon="oxygen_tank"] { background-image: url(rsc/icons/icon_oxygen_tank.png); }
+td[icon="oxygenator"] { background-image: url(rsc/icons/icon_oxygenator.png); }
+td[icon="packager"] { background-image: url(rsc/icons/icon_packager.png); }
+td[icon="paver"] { background-image: url(rsc/icons/icon_paver.png); }
+td[icon="plastic"] { background-image: url(rsc/icons/icon_plastic.png); }
+td[icon="platforms"] { background-image: url(rsc/icons/icon_platforms.png); }
+td[icon="power_cells"] { background-image: url(rsc/icons/icon_power_cells.png); }
+td[icon="power_extenders"] { background-image: url(rsc/icons/icon_power_extenders.png); }
+td[icon="print_filter"] { background-image: url(rsc/icons/icon_print_filter.png); }
+td[icon="probe_scanner"] { background-image: url(rsc/icons/icon_probe_scanner.png); }
+td[icon="quartz"] { background-image: url(rsc/icons/icon_quartz.png); }
+td[icon="rail_engine"] { background-image: url(rsc/icons/icon_rail_engine.png); }
+td[icon="rail_post"] { background-image: url(rsc/icons/icon_rail_post.png); }
+td[icon="rail_station"] { background-image: url(rsc/icons/icon_rail_station.png); }
+td[icon="recreational_sphere"] { background-image: url(rsc/icons/icon_recreational_sphere.png); }
+td[icon="research_chamber"] { background-image: url(rsc/icons/icon_research_chamber.png); }
+td[icon="resin"] { background-image: url(rsc/icons/icon_resin.png); }
+/* td[icon="robo_bonsai"] { background-image: url(rsc/icons/icon_robo_bonsai.png); } */
+td[icon="rover"] { background-image: url(rsc/icons/icon_rover.png); }
+td[icon="rover_seat"] { background-image: url(rsc/icons/icon_rover_seat.png); }
+td[icon="rubber"] { background-image: url(rsc/icons/icon_rubber.png); }
+td[icon="ruby"] { background-image: url(rsc/icons/icon_ruby.png); }
+td[icon="scrap"] { background-image: url(rsc/icons/icon_scrap.png); }
+td[icon="seed"] { background-image: url(rsc/icons/icon_seed.png); }
+td[icon="sensor"] { background-image: url(rsc/icons/icon_sensor.png); }
+td[icon="shelter"] { background-image: url(rsc/icons/icon_shelter.png); }
+/* td[icon="ship_in_a_bottle"] { background-image: url(rsc/icons/icon_ship_in_a_bottle.png); } */
+td[icon="shredder"] { background-image: url(rsc/icons/icon_shredder.png); }
+td[icon="shuttle"] { background-image: url(rsc/icons/icon_shuttle.png); }
+td[icon="silicone"] { background-image: url(rsc/icons/icon_silicone.png); }
+/* td[icon="simulated_aquarium"] { background-image: url(rsc/icons/icon_simulated_aquarium.png); } */
+td[icon="small_camera"] { background-image: url(rsc/icons/icon_small_camera.png); }
+td[icon="small_printer"] { background-image: url(rsc/icons/icon_small_printer.png); }
+td[icon="smelting_furnace"] { background-image: url(rsc/icons/icon_smelting_furnace.png); }
+/* td[icon="snow_globe"] { background-image: url(rsc/icons/icon_snow_globe.png); } */
+td[icon="soil_centrifuge"] { background-image: url(rsc/icons/icon_soil_centrifuge.png); }
+td[icon="solar_panel"] { background-image: url(rsc/icons/icon_solar_panel.png); }
+td[icon="sphalerite"] { background-image: url(rsc/icons/icon_sphalerite.png); }
+td[icon="splitter"] { background-image: url(rsc/icons/icon_splitter.png); }
+td[icon="steel"] { background-image: url(rsc/icons/icon_steel.png); }
+td[icon="storage"] { background-image: url(rsc/icons/icon_storage.png); }
+td[icon="sulfur"] { background-image: url(rsc/icons/icon_sulfur.png); }
+td[icon="tapper"] { background-image: url(rsc/icons/icon_tapper.png); }
+td[icon="tether_dropper"] { background-image: url(rsc/icons/icon_tether_dropper.png); }
+td[icon="tethers"] { background-image: url(rsc/icons/icon_tethers.png); }
+td[icon="thruster"] { background-image: url(rsc/icons/icon_thruster.png); }
+td[icon="titanite"] { background-image: url(rsc/icons/icon_titanite.png); }
+td[icon="titanium"] { background-image: url(rsc/icons/icon_titanium.png); }
+td[icon="titanium_alloy"] { background-image: url(rsc/icons/icon_titanium_alloy.png); }
+td[icon="tool_mod"] { background-image: url(rsc/icons/icon_tool_mod.png); }
+td[icon="trade_platform"] { background-image: url(rsc/icons/icon_trade_platform.png); }
+td[icon="tungsten"] { background-image: url(rsc/icons/icon_tungsten.png); }
+td[icon="tungsten_carbide"] { background-image: url(rsc/icons/icon_tungsten_carbide.png); }
+td[icon="vtol"] { background-image: url(rsc/icons/icon_vtol.png); }
+td[icon="walkway_bundle"] { background-image: url(rsc/icons/icon_walkway_bundle.png); }
+td[icon="winch"] { background-image: url(rsc/icons/icon_winch.png); }
+td[icon="wind_turbine"] { background-image: url(rsc/icons/icon_wind_turbine.png); }
+td[icon="wolframite"] { background-image: url(rsc/icons/icon_wolframite.png); }
+td[icon="zinc"] { background-image: url(rsc/icons/icon_zinc.png); }

@@ -11,7 +11,7 @@ function filter(input) {
 	filterTable("small-printer-recipes", [0, 3, 4], text);
 	filterTable("medium-printer-recipes", [0, 3, 4, 5], text);
 	filterTable("large-printer-recipes", [0, 3, 4, 5, 6], text);
-	filterTable("chemistry-lab-recipes", [0, 1, 2, 3], text);
+	filterTable("chemistry-lab-recipes", [0, 2, 3, 4], text);
 	filterTable("materials", [0, 1, 2], text);
 	filterTable("trades", [0, 3], text);
 }
@@ -41,6 +41,32 @@ function filterTable(id, columns, query) {
 	} else {
 		table.parentElement.classList.add("hidden");
 	}
+}
+
+function makeNamesClickable() {
+	makeClickable("backpack-printer-recipes", "td[icon]");
+	makeClickable("small-printer-recipes", "td[icon]");
+	makeClickable("medium-printer-recipes", "td[icon]");
+	makeClickable("large-printer-recipes", "td[icon]");
+	makeClickable("chemistry-lab-recipes", "td[icon]");
+	makeClickable("materials", "td[icon]:first-child");
+	makeClickable("materials", "td[icon]:last-child");
+	makeClickable("trades", "td[icon]");
+}
+
+function makeClickable(id, q) {
+	const table = document.getElementById(id);
+	if (!table) return;
+	for (const td of table.querySelectorAll("tbody > tr > " + q)) {
+		td.classList.add("clickable");
+		td.addEventListener("click", queryMe);
+	}
+}
+
+function queryMe() {
+	const search = document.getElementById("search")
+	search.value = this.innerText;
+	filter(search);
 }
 
 //// TABLE SORTING ////
@@ -153,5 +179,7 @@ function updateUnlockData() {
 }
 
 // on load
+makeNamesClickable();
 makeTablesSortable();
 addUnlocked();
+filter(document.getElementById("search"));
