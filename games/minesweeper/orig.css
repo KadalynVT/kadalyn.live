@@ -1,0 +1,45 @@
+.tile {
+	fill: #ccc;
+	--ul: #eee;
+	--lr: #444;
+}
+.tile.open {
+	--ns: black;
+	--n1: blue;
+	--n2: green;
+	--n3: red;
+	--n4: darkblue;
+	--n5: darkred;
+	--n6: teal;
+	--n7: black; --n7s: #444;
+	--n8: darkgrey;
+	--mine: black;
+	--glint: white;
+}
+.lost .tile[href="#tile-1"] {
+	--ul: none;
+	--lr: none;
+	--mine: black;
+	--glint: white;
+}
+.lost .tile.open[href="#tile-1"] {
+	fill: red;
+}
+.tile.flagged {
+	--pole: black;
+	--flag: red;
+}
+.lost .tile.flagged[href="#tile-1"] {
+	fill: green;
+	--pole: none;
+	--flag: none;
+}
+.tile.clicking {
+	--ul: #444;
+	--lr: #eee;
+}
+
+.lcd {
+	--off: #500;
+	--on: red;
+}
